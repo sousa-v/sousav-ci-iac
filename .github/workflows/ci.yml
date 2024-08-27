@@ -9,7 +9,7 @@ jobs:
   
   run-terraform:
     name: 'Run terraform'
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Configure AWS crendentials
